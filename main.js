@@ -3,7 +3,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
 });
 
-const TOKEN = 'TokenHere';
+const TOKEN = 'https://discord.com/oauth2/authorize?client_id=1378057778584752188&permissions=8&integration_type=0&scope=bot';
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
